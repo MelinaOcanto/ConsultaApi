@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;1,400&display=swap');
+body{
+    font-family: 'Roboto Mono';
+}
+.contenedor {
+    box-shadow: rgba(68, 72, 104, 0.872) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    max-width: 501px;
+    text-align: center;
+    padding: 20px 20px 50px;
+    margin: 10% auto 0;
+    background-color: #6d77c1;
+    border-radius: 9px;
+}
+.contenedor h1{
+    font-size: 34px;
+    margin-bottom: 10px;
+    color: #FFF;
+    font-family: 'Roboto Mono';
+}
+
+.contenedor h4{
+    margin-bottom: 30px;
+    color: #FFF;
+    font-family: 'Roboto Mono';
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+form input[type="text"], form input[type="submit"], form select{
+    width: 100%;
+    margin: 0px 0 25px;
+    display: inline-block;
+    border: 1px solid #a49898;
+    box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: rgb(2, 2, 2);
+    font-family: 'roboto mono', sans-serif;
+    font-weight:bolder;
+    background-color: rgb(254, 253, 253);
+}
+
+form input[type="submit"]{
+    width: 100%;
+    cursor: pointer;
+    background-color: #14d4a5;
+    border: 1px solid #14d4a5;
+    color: #fff;
+    font-weight: 700;
+    transition: width 1s;
+    
+}
+form .contenedorBoton:hover input[type="submit"]{
+    width: 50%;
+}
+
+
+.alert-message {
+    margin: 24px 0 0;
+    color: rgb(36, 35, 35)!important;
+}
