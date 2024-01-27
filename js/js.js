@@ -10,12 +10,12 @@ form.addEventListener('submit', (e) =>{
         validar('Ambos campos son obligatorios');
         return;
     }
-    callAPI(nombreCiudad.value, nombrePais.value);
+    pedidoAPI(nombreCiudad.value, nombrePais.value);
     //console.log(nombreCiudad.value);
     //console.log(nombrePais.value);
 })
 
-function callAPI (ciudad, pais){
+function pedidoAPI (ciudad, pais){
     const apiId = "c05e45dfafb6b6491386473314873d25";
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${ciudad},${pais}&appid=${apiId}`;
     
